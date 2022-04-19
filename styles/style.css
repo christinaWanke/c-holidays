@@ -1,0 +1,258 @@
+#kwm-body{
+    margin-top: 3em;
+    height: auto;
+    padding: 2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#kwm-header{
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+#kwm-footer{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 12em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    background-color: dimgrey;
+    color: white;
+    height: 40%;
+}
+
+footer{
+    background-color: dimgrey;
+
+}
+
+
+/********** NAVBAR **********/
+nav a{
+    color: white;
+}
+
+.navbar{
+    background-color: #f7b643;
+    padding: 0 1em 0 1em;
+}
+
+.navbar-brand a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navbar-brand a:hover{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.container-menu{
+    padding-top: 20px;
+
+}
+
+
+/********** LINK **********/
+a{
+    padding-top: 3px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+a:hover{
+    text-decoration: overline;
+}
+
+.menu{
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #FFFFFF;
+    text-decoration: overline;
+}
+
+
+/********** BUTTON - FAVOURITE **********/
+button.favourite {
+    border: 0;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: all, 0.5s;
+    transform: rotate(0deg);
+}
+
+button.favourite.is_favourite {
+    border-left: #f7b643 3px solid;
+    transform: rotate(360deg);
+}
+
+button.favourite:focus {
+    outline: 0;
+}
+
+button.favourite.is_favourite:after {
+    outline: 0;
+}
+
+
+/********** BUTTON **********/
+.button, .description{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em;
+}
+
+.btn.btn-primary{
+    background-color: #f7b643;
+    border-color: #ffffff;
+    text-decoration: none;
+}
+
+.btn.btn-primary:hover{
+    background-color: #FFFFFF;
+    border-color: #f7b643;
+    color: #f7b643;
+    text-decoration: none;
+}
+
+.accordion-button:not(.collapsed){
+    color: #f7b643 !important;
+    background-color: #f7b6430f !important;
+}
+
+
+/********** FLEX **********/
+#cities, #hotels, #hotels_of_city{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#languages{
+    display: flex;
+    list-style: none;
+}
+
+#amenities{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/********** BANNER **********/
+.banner{
+    background-image: url("../assets/annie-spratt-qyAka7W5uMY-unsplash.jpg");
+    object-fit: cover;
+    object-position: 35%;
+    position: relative;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-text, .image{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-text h1 {
+    position: absolute;
+    top: 4.2em;
+    color: white;
+}
+
+.banner-text p{
+    position: absolute;
+    top: 14em;
+    color: white;
+}
+
+
+/********** MAP **********/
+#mapid {
+    height: 300px;
+}
+
+
+/********** GALLERY **********/
+#hotel_gallery{
+    display: flex;
+    justify-content: space-between;
+    width: 95.5vw;
+    overflow: hidden;
+    overflow-scrolling: auto;
+}
+
+.hotel_gallery_bg{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+
+/********** SPACING & POSITIONING **********/
+.space{
+    margin: 0 1em 0 1em;
+}
+
+#logout{
+    margin-top: 5em;
+
+}
+
+#favourites h1{
+    position: absolute;
+}
+
+
+/********** BOXES **********/
+#contact{
+    background-color: #f7b643;
+    color: #FFFFFF;
+    margin: 5em -2em 2em 2em;
+    padding: 1em;
+    box-shadow: 2px 2px 10px #aba7a7;
+}
+
+#amenities{
+    box-shadow: 2px 2px 5px #e9e6e6;
+    border-color: #8f8c8c;
+    padding: 1em;
+}
+
+#city_description .card, #hotel_description .card{
+    border: 0;
+}
+
+
+/********** CARD **********/
+.card-title{
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/********** HEADER **********/
+.header{
+    text-align: center;
+}
+
+.line{
+    background-color: #f7b643;
+    color: #FFFFFF;
+    padding: 0.3em;
+}
+
